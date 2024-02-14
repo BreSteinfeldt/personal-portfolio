@@ -22,8 +22,8 @@ function Projects() {
         <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
         <span className="work__item" onClick={() => filterItem("Front-End Development")}>Front-End Development</span>
         <span className="work__item" onClick={() => filterItem("Back-End Development")}>Back-End Development</span>
-        <span className="work__item" onClick={() => filterItem("Data Structures & Algorithums")}>Data Structures & Algorithums</span>
         <span className="work__item" onClick={() => filterItem("Full-Stack Development")}>Full-Stack Development</span>
+        <span className="work__item" onClick={() => filterItem("Data Structures & Algorithums")}>Data Structures & Algorithums</span>
       </div>
 
       <div className="work__container grid">

@@ -1,6 +1,7 @@
 import React from "react"; 
 import "./About.css";  
 import Image from "../../assets/about-me-placeholder.png"; 
+import resume from "../../assets/Breanna-Ho-Resume.pdf";
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
         <div className="about__data gird">
           <div className="about__info">
             <p className="about__description">I am a recent graduate of the Thinkful Engineering Immersion program, where I honed my skills in full-stack development. With a diverse background in creative, production, and project management, I am passionate about solving complex problems. My experience includes collaborating cross-functionally and steering projects from inception to completion. Armed with a creative perspective and strong organizational and problem-solving skills, I am now ready to make my mark in the world of software engineering.</p>
-            <a href="" className="btn">Download CV</a>
+            <a href={resume} download={true} className="btn">Download CV</a>
           </div>
 
           <div className="about__skills grid">
