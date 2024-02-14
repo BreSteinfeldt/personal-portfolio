@@ -28,7 +28,7 @@ function Projects() {
 
       <div className="work__container grid">
         {items.map ((element) => {
-          const {id, image, title, category} = element; 
+          const {id, image, title, category, url} = element; 
           return(
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -38,7 +38,7 @@ function Projects() {
 
               <span className="work__category">{category}</span>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
+              <a href={url} className="work__button">
                 <i className="icon-link work__button-icon"></i>
               </a>
             </div>

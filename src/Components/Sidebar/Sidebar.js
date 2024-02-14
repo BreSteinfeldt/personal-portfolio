@@ -31,7 +31,7 @@ function Sidebar() {
             </li>
 
             <li className="nav__item">
-              <a href="#projects" className="nav__link">
+              <a href="#work" className="nav__link">
                 <i className="icon-layers"></i>
               </a>
             </li>
