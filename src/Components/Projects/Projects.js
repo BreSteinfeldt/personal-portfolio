@@ -5,6 +5,13 @@ import Menu from "./Menu";
 
 function Projects() {
   const [items, setItems] = useState(Menu); 
+  const filterItem = (categoryItem) => {
+    const updatedItems = Menu.filter ((curElement) => {
+      return curElement.category === categoryItem; 
+    })
+
+    setItems(updatedItems)
+  }
 
 
   return (
@@ -12,11 +19,11 @@ function Projects() {
       <h2 className="section__title">Recent Work</h2>
 
       <div className="work__filters">
-        <span className="work__item">Everything</span>
-        <span className="work__item">Front-End Development</span>
-        <span className="work__item">Back-End Development</span>
-        <span className="work__item">Data Structures & Algorithums</span>
-        <span className="work__item">Full-Stack Development</span>
+        <span className="work__item" onClick={() => setItems(Menu)}>Everything</span>
+        <span className="work__item" onClick={() => filterItem("Front-End Development")}>Front-End Development</span>
+        <span className="work__item" onClick={() => filterItem("Back-End Development")}>Back-End Development</span>
+        <span className="work__item" onClick={() => filterItem("Data Structures & Algorithums")}>Data Structures & Algorithums</span>
+        <span className="work__item" onClick={() => filterItem("Full-Stack Development")}>Full-Stack Development</span>
       </div>
 
       <div className="work__container grid">
