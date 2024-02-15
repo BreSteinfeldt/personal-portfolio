@@ -33,21 +33,21 @@ const Menu = [
         image: Work4, 
         title: "Flashcard Project", 
         category: "Front-End Development", 
-        url: "https://github.com/BreSteinfeldt/capstone-flashcard-project"
+        url: "https://capstone-flashcard-project.onrender.com"
     },
     {
         id: 5, 
         image: Work5, 
         title: "Movie Database Project", 
         category: "Back-End Development", 
-        url: "https://github.com/BreSteinfeldt/capstone-weLoveMovies-backend"
+        url: "https://capstone-movie-front-end.onrender.com"
     },
     {
         id: 6, 
         image: Work6, 
         title: "Restaurant Reservation Project", 
         category: "Full-Stack Development", 
-        url: "https://github.com/BreSteinfeldt/starter-restaurant-reservation"
+        url: "https://final-capstone-frontend-hhvx.onrender.com"
     },
 
 ]
