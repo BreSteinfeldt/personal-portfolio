@@ -1,6 +1,6 @@
 import React from "react"; 
 import "./About.css";  
-import Image from "../../assets/about-me-placeholder.png"; 
+import Image from "../../assets/SelfIconBreannaGray.png";
 import resume from "../../assets/Breanna-Ho-Resume.pdf";
 
 function About() {

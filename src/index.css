@@ -114,7 +114,6 @@ img {
 
 .section__title::before {
     content: ''; 
-    /* background: url(./assets/background.jpg);  */
     height: 2.25rem; 
     width: 2.25rem; 
     position: absolute; 
