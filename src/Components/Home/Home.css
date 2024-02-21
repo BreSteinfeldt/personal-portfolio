@@ -41,6 +41,7 @@
 }
 
 .scroll__down {
+    /* position: absolute;  */
     position: static; 
     bottom: 2.5rem; 
     left: 0; 
@@ -93,8 +94,3 @@
     animation: ani-mouse 2s linear infinite; 
 }
 
-/* @media all and (min-height:600px) {
-    .scroll__down {
-        position:static; 
-    }
-} */

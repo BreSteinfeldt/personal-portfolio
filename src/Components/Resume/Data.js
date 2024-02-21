@@ -5,7 +5,7 @@ const Data = [
         icon: "icon-graduation",
         year: "2023 - 2024",
         title: "Thinkful Software Engineering Bootcamp",
-        desc: "Acquired comprehensive knowledge of industry best practices and software development standards focusing on JavaScript, HTML5, CSS3, React Native, Node.js, PostgreSQL, RESTful APIs, algorithms, and data structures"
+        desc: "Acquired comprehensive knowledge of industry best practices and software development standards focusing on JavaScript, HTML5, CSS3, React.js, Node.js, PostgreSQL, RESTful APIs, algorithms, and data structures"
     },
 
     {
